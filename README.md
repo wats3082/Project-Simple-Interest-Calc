@@ -1,2 +1,2 @@
-# Interest based on time and frequency
+# Frequncies / music / mantras and tips based on mood chosen by user
 

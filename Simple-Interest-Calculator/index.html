@@ -1,31 +1,31 @@
 <!DOCTYPE html>
     <head>
-        <title>Simple Interest Calculator</title>
+        <title>Mood Meditation Calculator</title>
         <script src="script.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="maindiv">
-            <h1>Simple Interest Calculator</h1>
+            <h1>Mood Calculator</h1>
 
             <div class="contents">
                 <table id="table">
                     <tbody>
                         <tr>
-                            <td class="labels">Amount </td>
+                            <td class="labels">Age </td> 
                             <td>
                                 <input type="number" id="principal">
                             </td>
                         </tr>
                         <tr>
-                            <td class="labels">Interest Rate </td>
+                            <td class="labels">Mood : least stressed 1-10 most stressed </td>
                             <td>
-                                <input type="range" min="1" max="20" step="0.25" value="10.25" id="rate" name="rate" onchange="SliderValue()"> 
-                                <span id="rate_display">10.25%</span>
+                                <input type="range" min="1" max="20" step="0.25" value="5.5 id="rate" name="rate" onchange="SliderValue()"> 
+                                <span id="rate_display">5.5%</span>
                             </td>
                         </tr>
                         <tr>
-                            <td class="labels">No. of Years</td>
+                            <td class="labels">No. of Kids</td>
                             <td>
                                 <select name="years" id="years">
                                     <option value="1">1</option>
@@ -45,7 +45,7 @@
                 </table>
     
     
-                <button id="compute" onclick="compute()">Calculate Interest</button> <br>
+                <button id="compute" onclick="compute()">Calculate Mood</button> <br>
                 <span id="result">
                 </span>
             </div>
